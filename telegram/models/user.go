@@ -1,5 +1,7 @@
 package models
 
+//go:generate easyjson -pkg -all .
+
 import "github.com/TovarischSuhov/pos-telegram/domain"
 
 type User struct {

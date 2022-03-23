@@ -4,6 +4,7 @@ import (
 	"flag"
 
 	"github.com/TovarischSuhov/pos-telegram/storage"
+	_ "github.com/mailru/easyjson/gen"
 )
 
 func main() {
